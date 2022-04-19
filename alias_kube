@@ -1,6 +1,5 @@
 ##################################
 ####### KUBERNETES ALIASES #######
-alias ctl='sh ~/git/ankra/ctl/ctl.sh'
 alias k='kubectl'
 # Actions:
 alias get='kubectl get'
@@ -19,11 +18,13 @@ alias endpoints='kubectl get endpoints'
 alias events='kubectl get events'
 alias ingress='kubectl get ingress'
 alias job='kubectl get jobs'
+alias jobs='job'
 alias ns='kubectl get namespaces'
 alias nodes='kubectl get nodes -o wide'
 alias pods='kubectl get pods'
 alias pv='kubectl get pv'
 alias pvc='kubectl get pvc'
 alias sc='kubectl get sc'
-alias secrets='kubectl get secrets'
+alias secret='kubectl get secrets'
+alias secrets='secret'
 alias svc='kubectl get svc'
