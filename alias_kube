@@ -1,12 +1,15 @@
 ##################################
 ####### KUBERNETES ALIASES #######
 alias k='kubectl'
+
 # Actions:
 alias get='kubectl get'
 alias delete='kubectl delete'
 alias describe='kubectl describe'
 alias logs='kubectl logs'
 alias enter='kubectl exec -it'
+alias drain_node='kubectl drain --ignore-daemonsets --delete-local-data --force'
+
 # Get Resources:
 alias all='kubectl get all'
 alias certs='kubectl get certificates'
